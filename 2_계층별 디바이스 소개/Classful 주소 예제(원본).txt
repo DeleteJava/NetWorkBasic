@@ -1,0 +1,85 @@
+IPv4 = 8bit,8bit,8bit,8bit = 32bit 
+128 64 32 16 8 4 2 1 = 2^7 2^6 2^5 2^4 2^3 2^2 2^1 2^0
+
+<예제> 풀어봅시다 
+
+1)
+Class =  
+IP = 87.53.107.1
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 = 
+
+2)
+Class = 
+IP = 150.64.32.178
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 = 
+
+3)
+Class =  
+IP = 221.175.185.40
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 = 
+
+4)
+Class =   
+IP = 200.15.25.24
+Subnetmask =
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 = 
+
+5)
+Class = 
+IP = 80.37.186.93
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 =  
+
+6)
+Class =   
+IP = 150.123.231.48
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 =  
+
+7)
+Class =  
+IP = 200.91.255.63
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 =  
+
+8)
+Class =   
+IP = 125.54.254.192
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 = 
+사용가능 갯수 = 
+
+9)
+Class =
+IP = 191.29.234.109
+Subnetmask = 
+Network 주소 = 
+Broadcast 주소 = 
+할당가능한 범위 =
+사용가능 갯수 = 

@@ -1,0 +1,79 @@
+Internet
+
+ARPA	인터넷의 시초 - 군사용
+
+1. MILNET - Intranet
+
+2. Internet - 지금 쓰고 있는 망
+
+	LAN(Local Area Network)	근거리 통신망	지역통신
+		Ethernet 통신 - MAC Address 를 기반으로 식별 통신	
+			장점 : Multiful Access = 다중 접속 가능
+			단점 : 속도는 N빵
+
+			철		copper=구리	Gold = 금
+			Ethernet	Fastethernet	Gigaethernet
+			10T(2^11=2048)	100T = 100Mbps	1000T
+			10E(2^10=1024)
+
+		Token-Ring 통신 - Token으로 통신 식별자를 구별
+			장점 : 한사람만 100%속도 보장
+			단점 : 한사람만 이용가능 / 다른 사람은 통신 불가
+
+		FDDI 통신 - Token 2개
+			장점 : 두 사람만 100%속도 보장
+			단점  : 두사람만 이용가능 / 다른 사람은 통신 불가
+	
+	WAN(Wide Area Network)	원거리 통신망	지역통신들간의 통신
+		S0/0= Serial 
+========================================================================================
+MAC Address 	= NETBIOS = Network Basic Input Output System = 컴퓨터 이름 통신 = 문자 
+		= Broadcast = 대역대를 넘어갈 수 없다 = 게이트웨이를 넘어갈 수 없다 = 대역대 안에서만 유효하다
+
+1975	TCP/IP	IP(Internet Protocol)	- 4 Layer
+
+1984	OSI 7 Layer - ISO 조직기구에서 발표
+========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

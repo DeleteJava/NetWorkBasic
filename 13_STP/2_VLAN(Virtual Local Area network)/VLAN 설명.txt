@@ -1,0 +1,26 @@
+VLAN = Virtual Local Area Network = 가상 근거리망 = Broadcast Domain을 쪼갠다 = 대역대를 쪼갠다 
+
+L3 = IP 로 대역대를 나주죠
+L2 = VLAN ID 로 대역대를 나눕니다
+
+VLAN ID = 12bit = 2^12 = 4096
+
+1	 예약	대표 VLAN = Default 값
+2~1001		일반 VLAN 
+1002	예약
+1003	예약
+1004	예약
+1005	예약
+1006 ~4094	확장 VLAN
+4095	예약	시스템 사용
+
+VLAN ID 같다 = 같은 대역대 = 통신 가능		VLAN 10 = VLAN 10
+VLAN ID 다르다 = 다른 대역대 = 통신 불능		VLAN 10 ≠ VLAN 20
+=======================================================================
+VLAN 생성 방법 3가지
+1. vlan database 라는 명령어 = L3 Switch에서 많이 쓴다
+2. (config)#vlan 10 라는 명령어 = 가장 많이 쓴다
+3. int f0/1
+	sw mo ac
+	sw ac vl 10 라는 명령어 = 가상에서만 쓰인다
+

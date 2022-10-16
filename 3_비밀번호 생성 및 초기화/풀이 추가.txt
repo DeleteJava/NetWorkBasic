@@ -1,0 +1,34 @@
+192.168.10.(254)  라우터 현관문(gateway)
+
+vty 0 4 = 5명    vty 0 15   16명
+
+지우개 startup(NVRAM)     or    running(RAM)
+
+Flash  >>> TFTP   
+
+문제 7번부터 
+
+
+copy running-config tftp                    =   
+
+ip
+
+이름
+---------------------------------
+
+
+show flash
+
+copy flash tftp 
+
+show flash 해서 나온 R 수치
+
+flash 는 del 로 지움
+
+지우면 iso 없음
+
+reload 안전모드
+
+
+
+

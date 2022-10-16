@@ -1,0 +1,5 @@
+STP Root Bridge 선출 = 낮은순 선출
+
+1. PATH COST - 얼마나 가까이,Bandwith 값
+2. Bridge ID ( Priority + MAC Address) = 2 Byte + 6 Byte = 8 Byte
+3. Port ID (Interface Number) = Priority(128) + Interface Number

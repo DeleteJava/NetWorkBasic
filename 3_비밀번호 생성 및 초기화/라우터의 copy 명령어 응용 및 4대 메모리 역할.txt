@@ -1,0 +1,38 @@
+copy  명령어의 응용
+
+copy running-config startup-config 	RAM -> NVRAM 으로 복사
+copy startup-config running-config	NVRAM -> RAM 으로 복사
+
+copy running-config tftp		RAM -> TFTP 서버로 업로드
+copy tftp running-config		TFTP -> RAM 으로 다운로드
+
+copy startup-config tftp		NVRAM -> TFTP 서버로 업로드
+copy tftp startup-config		TFTP -> NVRAM 으로 다운로드
+
+copy flash tftp				flash -> TFTP 서버로 업로드
+copy tftp flash				TFTP -> flash 로 다운로드
+-------------------------------------------------------------------------
+Router 4대 Memory 
+	설명			읽기	쓰기	휘발여부
+ROM	안전모드 = rommon Mode	O	X	비휘발
+RAM	running-config		O	O	휘발
+NVRAM	startup-config		O	O	비휘발
+Flash	IOS=운영체제		O	O	비휘발
+=========================================================================
+FTP(File Transfer Protocol)		- TCP 20~21 Port
+TFTP(Trival File Transfer Protocol)	- UDP 69 Port
+=========================================================================
+Local HOST	내 컴퓨터
+Remote HOST	남 컴퓨터
+
+
+
+
+
+
+
+
+
+
+
+

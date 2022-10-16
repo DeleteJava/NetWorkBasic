@@ -1,0 +1,10 @@
+CSMA / CD
+carrier Sence Multiple Access / Collision Detector
+===========================================================
+Switch 기본 동작 5가지 = Mac Table을 근거로 한 전송매체
+
+Mac-table X	1. Flooding = 흩어뿌린다 
+		2. Learning = Mac-address 를 배워온다
+Mac-Table O	3. Forwarding = 정확한 포트에서 정확한 포트로 전송 O
+		4. Filtering = 정확하지 않는 포트로는 전송 X
+		5. Aging = 300초 Renewal 
